@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60CF07361757D88A0024ECCA /* zombies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60CF07351757D88A0024ECCA /* zombies.cpp */; };
+		60CF07381757D88A0024ECCA /* CS_31_Spring_Proj_7.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 60CF07371757D88A0024ECCA /* CS_31_Spring_Proj_7.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		60CF07301757D88A0024ECCA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				60CF07381757D88A0024ECCA /* CS_31_Spring_Proj_7.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		60CF07321757D88A0024ECCA /* CS 31 Spring Proj 7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS 31 Spring Proj 7"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CF07351757D88A0024ECCA /* zombies.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = zombies.cpp; sourceTree = "<group>"; };
+		60CF07371757D88A0024ECCA /* CS_31_Spring_Proj_7.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CS_31_Spring_Proj_7.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60CF072F1757D88A0024ECCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60CF07291757D88A0024ECCA = {
+			isa = PBXGroup;
+			children = (
+				60CF07341757D88A0024ECCA /* CS 31 Spring Proj 7 */,
+				60CF07331757D88A0024ECCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60CF07331757D88A0024ECCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60CF07321757D88A0024ECCA /* CS 31 Spring Proj 7 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60CF07341757D88A0024ECCA /* CS 31 Spring Proj 7 */ = {
+			isa = PBXGroup;
+			children = (
+				60CF07351757D88A0024ECCA /* zombies.cpp */,
+				60CF07371757D88A0024ECCA /* CS_31_Spring_Proj_7.1 */,
+			);
+			path = "CS 31 Spring Proj 7";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60CF07311757D88A0024ECCA /* CS 31 Spring Proj 7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60CF073B1757D88A0024ECCA /* Build configuration list for PBXNativeTarget "CS 31 Spring Proj 7" */;
+			buildPhases = (
+				60CF072E1757D88A0024ECCA /* Sources */,
+				60CF072F1757D88A0024ECCA /* Frameworks */,
+				60CF07301757D88A0024ECCA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CS 31 Spring Proj 7";
+			productName = "CS 31 Spring Proj 7";
+			productReference = 60CF07321757D88A0024ECCA /* CS 31 Spring Proj 7 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60CF072A1757D88A0024ECCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Calvin Liu";
+			};
+			buildConfigurationList = 60CF072D1757D88A0024ECCA /* Build configuration list for PBXProject "CS 31 Spring Proj 7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60CF07291757D88A0024ECCA;
+			productRefGroup = 60CF07331757D88A0024ECCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60CF07311757D88A0024ECCA /* CS 31 Spring Proj 7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60CF072E1757D88A0024ECCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CF07361757D88A0024ECCA /* zombies.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		60CF07391757D88A0024ECCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		60CF073A1757D88A0024ECCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		60CF073C1757D88A0024ECCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60CF073D1757D88A0024ECCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60CF072D1757D88A0024ECCA /* Build configuration list for PBXProject "CS 31 Spring Proj 7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CF07391757D88A0024ECCA /* Debug */,
+				60CF073A1757D88A0024ECCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60CF073B1757D88A0024ECCA /* Build configuration list for PBXNativeTarget "CS 31 Spring Proj 7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CF073C1757D88A0024ECCA /* Debug */,
+				60CF073D1757D88A0024ECCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60CF072A1757D88A0024ECCA /* Project object */;
+}

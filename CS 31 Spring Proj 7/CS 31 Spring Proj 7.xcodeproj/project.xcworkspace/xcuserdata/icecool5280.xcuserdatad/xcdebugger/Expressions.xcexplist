@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Island::display(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;) const:main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_zombies[k]-&gt;row()">
+            </PersistentString>
+            <PersistentString
+               value = "m_zombies[k]-&gt;col()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
